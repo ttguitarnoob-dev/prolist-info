@@ -10,7 +10,7 @@ const Home = () => {
                 <Link to={'/who-we-are'}>
                     <div className="card">
                         <div className="card-image">
-                            <img src="https://picsum.photos/200" />
+                            <img src="https://picsum.photos/200" alt="Who We Are" />
                         </div>
                         <div className="card-title">
                             <h2>Who We Are</h2>
@@ -20,7 +20,7 @@ const Home = () => {
                 <Link to={'/what-we-do'}>
                     <div className="card">
                         <div className="card-image">
-                            <img src="https://picsum.photos/200" />
+                            <img src="https://picsum.photos/200" alt="What We Do" />
                         </div>
                         <div className="card-title">
                             <h2>What We Do</h2>
@@ -30,7 +30,7 @@ const Home = () => {
                 <Link to={'/where-we-work'}>
                     <div className="card">
                         <div className="card-image">
-                            <img src="https://picsum.photos/200" />
+                            <img src="https://picsum.photos/200" alt="Where We Work"/>
                         </div>
                         <div className="card-title">
                             <h2>Where We Work</h2>
@@ -40,7 +40,7 @@ const Home = () => {
                 <Link to={'/selling-tips'}>
                     <div className="card">
                         <div className="card-image">
-                            <img src="https://picsum.photos/200" />
+                            <img src="https://picsum.photos/200" alt="Selling Tips"/>
                         </div>
                         <div className="card-title">
                             <h2>Selling Tips</h2>
@@ -50,7 +50,7 @@ const Home = () => {
                 <Link to={'/get-started'}>
                     <div className="card">
                         <div className="card-image">
-                            <img src="https://picsum.photos/200" />
+                            <img src="https://picsum.photos/200" alt="Get Started"/>
                         </div>
                         <div className="card-title">
                             <h2>Get Started</h2>
